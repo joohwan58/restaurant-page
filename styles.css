@@ -16,28 +16,36 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 body {
     margin: 0;
+    background-image: url("./images/burger-fries.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
 .logo-container {
     padding-top: 20px;
     display: flex;
     justify-content: center;
-    background-color: black;
     width: 100%;
 
     .logo {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 
     .title {
         color: white;
         font-family: 'Helvetica';
-        font-size: 60px;
+        font-size: 50px;
         margin: 0;
         align-self: flex-end;
         margin-bottom: 10px;
@@ -45,17 +53,15 @@ body {
 }
 
 nav {
-    background-color: black;
     display: flex;
     justify-content: center;
     gap: 70px;
     align-items: center;
-    font-family: 'Noto Sans', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 30px;
+
+    padding-bottom: 15px;
 
     .nav-button {
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0);
         border: 0;
         color: white;
         font-size: 25px;
@@ -67,4 +73,29 @@ nav {
         padding-bottom: 23px;
     }
 
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: large;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 30px 60px;
+
+    .intro-image {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        margin: 30px 0;
+    }
 }
