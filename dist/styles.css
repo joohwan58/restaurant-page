@@ -23,6 +23,7 @@ body {
 }
 
 .logo-container {
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -65,6 +66,5 @@ nav {
         border-bottom: 2px white solid;
         padding-bottom: 23px;
     }
-
 
 }

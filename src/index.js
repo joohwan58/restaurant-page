@@ -1,4 +1,4 @@
-import { test } from "./header.js";
+import { header } from "./header.js";
 
 const body = document.querySelector('body');
-body.appendChild(test);
+body.appendChild(header);
