@@ -1,4 +1,5 @@
-import { printMe } from "./print.js";
+import { test } from "./header.js";
 
 console.log('hello world');
-printMe();
+const body = document.querySelector('body');
+body.appendChild(test);
