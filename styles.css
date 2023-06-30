@@ -1,3 +1,70 @@
-h1 {
-    color: red;
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/Helvetica/Helvetica-Black.eot');
+    src: url('./fonts/Helvetica/Helvetica-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Helvetica/Helvetica-Black.woff2') format('woff2'),
+        url('./fonts/Helvetica/Helvetica-Black.woff') format('woff'),
+        url('./fonts/Helvetica/Helvetica-Black.ttf') format('truetype'),
+        url('./fonts/Helvetica/Helvetica-Black.svg#Helvetica-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/*font-family: 'Noto Sans', sans-serif;*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .title {
+        color: white;
+        font-family: 'Helvetica';
+        font-size: 60px;
+        margin: 0;
+        align-self: flex-end;
+        margin-bottom: 10px;
+    }
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    .nav-button {
+        background-color: black;
+        border: 0;
+        color: white;
+        font-size: 25px;
+        padding: 25px;
+    }
+
+    .nav-button:hover {
+        border-bottom: 2px white solid;
+        padding-bottom: 23px;
+    }
+
+
 }
