@@ -106,7 +106,7 @@ nav {
     grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     background-color: rgba(0, 0, 0, 0.65);
     gap: 50px;
-    padding: 50px;
+    padding: 60px;
 
     .menu-item {
         width: auto;
@@ -136,7 +136,48 @@ nav {
     }
 }
 
+.contact-page {
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 60px;
 
+    .phone-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .phone-logo {
+            height: 2em;
+            width: 2em;
+        }
+
+        .phone-number {
+            color: white;
+            font-size: var(--content-font-size);
+        }
+    }
+
+    .address-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .address-logo {
+            height: 2em;
+            width: 2em;
+        }
+
+        .address {
+            color: white;
+            font-size: var(--content-font-size);
+        }
+    }
+
+
+}
 
 
 
