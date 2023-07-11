@@ -8,10 +8,10 @@ const body = document.querySelector('body');
 
 body.insertBefore(header, body.firstChild)
 
-const mainContent = document.createElement('div');
-mainContent.classList.add('main-content');
-mainContent.appendChild(menuContainer);
+// const mainContent = document.createElement('div');
+// mainContent.classList.add('main-content');
+// mainContent.appendChild(menuContainer);
 
-body.appendChild(mainContent);
+// body.appendChild(mainContent);
 
 body.appendChild(footer);
