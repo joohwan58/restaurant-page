@@ -1,5 +1,5 @@
-const homepage = document.createElement('div');
-homepage.classList.add('homepage');
+const homePage = document.createElement('div');
+homePage.classList.add('homepage');
 
 const line1 = document.createElement('p');
 line1.textContent = 'The fake fast food chain you know and love';
@@ -16,9 +16,9 @@ image.alt = "Employee";
 const line3 = document.createElement('p');
 line3.textContent = 'Order online or Visit us!';
 
-homepage.appendChild(line1);
-homepage.appendChild(line2);
-homepage.appendChild(image);
-homepage.appendChild(line3);
+homePage.appendChild(line1);
+homePage.appendChild(line2);
+homePage.appendChild(image);
+homePage.appendChild(line3);
 
-export { homepage }
+export { homePage }
