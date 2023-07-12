@@ -20,7 +20,7 @@ header.appendChild(logoContainer);
 
 const nav = document.createElement('nav');
 const homeButton = document.createElement('button');
-homeButton.classList.add('nav-button', 'home');
+homeButton.classList.add('nav-button', 'home', 'selected');
 homeButton.textContent = "Home";
 const menuButton = document.createElement('button');
 menuButton.classList.add('nav-button', 'menu');

@@ -74,6 +74,11 @@ nav {
         padding-bottom: 23px;
     }
 
+    .selected {
+        border-bottom: 2px white solid;
+        padding-bottom: 23px;
+    }
+
 }
 
 .main-content {
